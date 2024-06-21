@@ -8,7 +8,7 @@ const { app, server } = require('./socket/index')
 
 // const app = express()
 app.use(cors({
-    origin : ["https://darshchat-client.vercel.app/"],
+    origin : ["https://darshchat-client.vercel.app"],
     methods:["GET","POST","PUT","DELETE"],
     credentials : true
 }))
